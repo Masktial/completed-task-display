@@ -27,6 +27,7 @@ export default class TaskHiderPlugin extends Plugin {
 				this.toggleCompletedTaskView();
 			}
 		});
+		this.toggleCompletedTaskView();
 	}
 
 	onunload() {
